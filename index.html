@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Catan Cities & Knights Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="board-overlay"></div>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">Weekly Table</p>
+      <h1>Catan Cities & Knights Tracker</h1>
+      <p class="subhead" data-meta>Season Overview</p>
+      <nav class="nav">
+        <a class="nav-link is-active" href="index.html">Home</a>
+        <a class="nav-link" href="standings.html">Standings</a>
+      </nav>
+    </header>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Year Records</h2>
+        <p class="section-note">Wins, losses, and total games this year.</p>
+      </div>
+      <div class="record-grid" data-records></div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Weekly Recaps</h2>
+        <p class="section-note">Date, winner, last place, worst play, and a short recap.</p>
+      </div>
+      <div class="recap-grid" data-recaps></div>
+    </section>
+
+    <footer class="footer">
+      <div class="update-box">
+        <h3>How to Update</h3>
+        <p>Edit <code>data.json</code> and refresh the page. Add a new entry in <code>weeks</code> for each match.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "leagueName": "Catan Cities & Knights Weekly",
+  "seasonYear": 2026,
+  "players": [
+    "Ali",
+    "Abe",
+    "Hassan",
+    "Hussein",
+    "Dania",
+    "Rasha",
+    "Lena",
+    "Rola"
+  ],
+  "standings": [
+    { "player": "Ali", "wins": 2, "losses": 2 },
+    { "player": "Abe", "wins": 1, "losses": 3 },
+    { "player": "Hassan", "wins": 1, "losses": 3 },
+    { "player": "Hussein", "wins": 0, "losses": 4 },
+    { "player": "Dania", "wins": 0, "losses": 2 },
+    { "player": "Rasha", "wins": 0, "losses": 3 },
+    { "player": "Lena", "wins": 0, "losses": 2 },
+    { "player": "Rola", "wins": 0, "losses": 0 }
+  ],
+  "weeks": [
+    {
+      "date": "2026-02-20",
+      "winner": "Abe",
+      "lastPlace": "Hussein",
+      "bestPlayer": "Ali",
+      "worstPlay": "Abe used his spy to steal an irrigation card and gleefully played it without realizing the bank had no wheat left.",
+      "summary": "Abe finally got on the board with a midnight heist--snatching Longest Road and dropping three points in a single turn. A rare burst of decisiveness from the guy who usually thinks for five minutes and then accomplishes nothing.\n\nAli stuck to his usual strategy: tell everyone he has no chance of winning, then somehow end up right there again--until a dry spell and a badly timed 7 cost him the win.\n\nRasha showed up after months of just rolling dice and, in the second most surprising thing of the night, nearly won. We're counting that as a win for her.\n\nHassan had flashes of brilliance but, as usual, couldn't close. Second-worst play of the night: helping Ali save his city while Hussein and Rasha were about to explode.\n\nAnd instead of Rasha rolling dice all night, Hussein took over as the designated roller--trash-talking loudly while extending his streak: another week without a win.\n\nLena stayed home, shocked that Abe went to game night while she was sick instead of taking care of her. Dania spent the night changing diapers while plotting how to make it next week.\n\nWe're still waiting on Rola to make her first appearance.",
+      "players": ["Abe", "Ali", "Hassan", "Rasha", "Hussein"]
+    }
+  ]
+}

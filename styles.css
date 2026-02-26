@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Roboto+Slab:wght@400;700&display=swap');
+
+:root {
+  color-scheme: light;
+  --ink: #1f1a14;
+  --ink-soft: #3d3427;
+  --sand: #f2dfb6;
+  --sand-deep: #d6b67a;
+  --clay: #b5673a;
+  --wood: #2f6b4a;
+  --wheat: #d5a23f;
+  --ore: #6f7f8c;
+  --sheep: #8dbf73;
+  --ember: #c4462b;
+  --cream: #fff8e8;
+  --card: rgba(255, 248, 232, 0.88);
+  --shadow: rgba(31, 26, 20, 0.18);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Slab", "Georgia", serif;
+  color: var(--ink);
+  background: radial-gradient(circle at top, rgba(255, 248, 232, 0.2), transparent 45%),
+    linear-gradient(160deg, #e7cf9c 0%, #d4b377 35%, #c69b65 100%);
+  min-height: 100vh;
+}
+
+.board-overlay {
+  position: fixed;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 15%, rgba(141, 191, 115, 0.45), transparent 35%),
+    radial-gradient(circle at 70% 10%, rgba(213, 162, 63, 0.45), transparent 30%),
+    radial-gradient(circle at 50% 40%, rgba(111, 127, 140, 0.35), transparent 35%),
+    radial-gradient(circle at 15% 60%, rgba(47, 107, 74, 0.35), transparent 35%),
+    radial-gradient(circle at 80% 65%, rgba(181, 103, 58, 0.35), transparent 40%),
+    linear-gradient(30deg, rgba(255, 255, 255, 0.15) 12%, transparent 12%),
+    linear-gradient(150deg, rgba(255, 255, 255, 0.12) 12%, transparent 12%),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.08) 2px, transparent 2px),
+    linear-gradient(0deg, rgba(31, 26, 20, 0.07) 2px, transparent 2px);
+  background-size: auto, auto, auto, auto, auto, 120px 104px, 120px 104px, 120px 104px, 120px 104px;
+  background-position: center;
+  opacity: 0.8;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.page {
+  position: relative;
+  z-index: 1;
+  padding: 48px 6vw 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.hero {
+  max-width: 880px;
+  background: var(--card);
+  border: 2px solid rgba(31, 26, 20, 0.15);
+  padding: 32px 36px;
+  border-radius: 24px;
+  box-shadow: 0 18px 40px var(--shadow);
+  backdrop-filter: blur(8px);
+}
+
+.eyebrow {
+  font-family: "Cinzel", "Garamond", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.35em;
+  font-size: 0.7rem;
+  margin: 0 0 8px;
+  color: var(--ink-soft);
+}
+
+h1 {
+  font-family: "Cinzel", "Garamond", serif;
+  font-size: clamp(2.4rem, 3vw + 1rem, 3.4rem);
+  margin: 0 0 12px;
+  color: var(--ink);
+}
+
+.subhead {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--ink-soft);
+}
+
+.nav {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--ink);
+  border: 1px solid rgba(31, 26, 20, 0.2);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  background: rgba(255, 255, 255, 0.6);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.nav-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(31, 26, 20, 0.12);
+}
+
+.nav-link.is-active {
+  background: rgba(47, 107, 74, 0.2);
+  border-color: rgba(47, 107, 74, 0.5);
+  font-weight: 700;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+h2 {
+  margin: 0;
+  font-family: "Cinzel", "Garamond", serif;
+  font-size: 1.8rem;
+}
+
+.section-note {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+.record-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 18px;
+}
+
+.recap-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.record-card,
+.recap-card {
+  background: var(--card);
+  border-radius: 20px;
+  padding: 20px 22px;
+  border: 1px solid rgba(31, 26, 20, 0.12);
+  box-shadow: 0 12px 26px var(--shadow);
+  backdrop-filter: blur(6px);
+}
+
+.record-card h3,
+.recap-card h3 {
+  margin: 0 0 12px;
+  font-family: "Cinzel", "Garamond", serif;
+  font-size: 1.2rem;
+}
+
+.record-stats {
+  display: grid;
+  gap: 6px;
+}
+
+.stat-line {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+}
+
+.recap-meta {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  margin-bottom: 10px;
+}
+
+.recap-summary {
+  margin: 10px 0 0;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+
+.tag {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  background: rgba(31, 26, 20, 0.08);
+  margin-right: 6px;
+}
+
+.tag.winner { background: rgba(141, 191, 115, 0.35); }
+.tag.last { background: rgba(196, 70, 43, 0.3); }
+
+.worst-play {
+  margin: 8px 0 0;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
+.standings-table {
+  background: var(--card);
+  border-radius: 22px;
+  border: 1px solid rgba(31, 26, 20, 0.12);
+  box-shadow: 0 12px 26px var(--shadow);
+  overflow: hidden;
+}
+
+.standings-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.standings-table th,
+.standings-table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid rgba(31, 26, 20, 0.08);
+}
+
+.standings-table th {
+  font-family: "Cinzel", "Garamond", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  background: rgba(47, 107, 74, 0.12);
+}
+
+.standings-table tr:last-child td {
+  border-bottom: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.update-box {
+  background: rgba(255, 248, 232, 0.9);
+  border-radius: 18px;
+  padding: 18px 22px;
+  border: 1px dashed rgba(31, 26, 20, 0.2);
+  max-width: 520px;
+}
+
+code {
+  font-family: "Courier New", monospace;
+  background: rgba(31, 26, 20, 0.08);
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+@media (max-width: 700px) {
+  .page {
+    padding: 32px 5vw 56px;
+  }
+
+  .hero {
+    padding: 24px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+  }
+}
