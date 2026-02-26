@@ -144,6 +144,9 @@ const renderRecaps = (weeks) => {
       const winners = toArray(week.winner).join(', ') || 'TBD';
       const last = toArray(week.lastPlace).join(', ') || 'TBD';
       const bestPlayer = toArray(week.bestPlayer).join(', ') || '';
+      const bestPlayBy = toArray(week.bestPlayBy).join(', ') || '';
+      const worstPlayBy = toArray(week.worstPlayBy).join(', ') || '';
+      const bestPlay = week.bestPlay || '';
       const worstPlay = week.worstPlay || 'Add the worst play for this match.';
       const summary = week.summary || '';
       const summaryParts = summary.split(/\n\s*\n/).map((part) => part.trim()).filter(Boolean);
@@ -155,8 +158,11 @@ const renderRecaps = (weeks) => {
             <span class="tag winner">Winner: ${winners}</span>
             <span class="tag last">Last Place: ${last}</span>
             ${bestPlayer ? `<span class="tag best">Best Player: ${bestPlayer}</span>` : ''}
+            ${bestPlayBy ? `<span class="tag bestplay">Best Play: ${bestPlayBy}</span>` : ''}
+            ${worstPlayBy ? `<span class="tag worstplay">Worst Play: ${worstPlayBy}</span>` : ''}
           </div>
           ${summaryParts.map((part) => `<p class="recap-summary">${part}</p>`).join('')}
+          ${bestPlay ? `<p class="best-play"><strong>Best Play:</strong> ${bestPlay}</p>` : ''}
           <p class="worst-play"><strong>Worst Play:</strong> ${worstPlay}</p>
         </article>
       `;
