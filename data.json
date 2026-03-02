@@ -12,18 +12,18 @@
     "Rola"
   ],
   "standings": [
-    { "player": "Ali", "wins": 2, "losses": 2 },
-    { "player": "Abe", "wins": 1, "losses": 3 },
-    { "player": "Hassan", "wins": 1, "losses": 3 },
-    { "player": "Hussein", "wins": 0, "losses": 4 },
-    { "player": "Dania", "wins": 0, "losses": 2 },
-    { "player": "Rasha", "wins": 0, "losses": 3 },
+    { "player": "Ali", "wins": 2, "losses": 3 },
+    { "player": "Abe", "wins": 1, "losses": 4 },
+    { "player": "Hassan", "wins": 1, "losses": 4 },
+    { "player": "Hussein", "wins": 0, "losses": 5 },
+    { "player": "Dania", "wins": 1, "losses": 2 },
+    { "player": "Rasha", "wins": 0, "losses": 4 },
     { "player": "Lena", "wins": 0, "losses": 2 },
     { "player": "Rola", "wins": 0, "losses": 0 }
   ],
   "weeks": [
     {
-      "date": "2026-02-28",
+      "date": "2026-03-01",
       "recapTitle": "Hussein's Failed War",
       "recapImage": "images/dania-the-humble.png",
       "winner": "Dania",
@@ -37,7 +37,8 @@
       "players": ["Ali", "Abe", "Dania", "Hassan", "Hussein", "Rasha"]
     },
     {
-      "date": "2026-02-21",
+      "date": "2026-02-22",
+      "recapTitle": "Abe's Trifecta: Best Play, Worst Play and the Win",
       "winner": "Abe",
       "lastPlace": "Hussein",
       "bestPlayer": "Ali",
