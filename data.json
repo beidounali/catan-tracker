@@ -23,6 +23,20 @@
   ],
   "weeks": [
     {
+      "date": "2026-02-28",
+      "recapTitle": "Hussein's Failed War",
+      "recapImage": "images/dania-the-humble.png",
+      "winner": "Dania",
+      "lastPlace": "Abe",
+      "bestPlayer": "Dania",
+      "bestPlayBy": "Ali",
+      "worstPlayBy": ["Hassan", "Rasha"],
+      "bestPlay": "Ali for stealing Hassan's coin metropolis in one turn and costing Hassan the game.",
+      "worstPlay": "Hassan and Rasha for giving Dania the wool metropolis without a fight.",
+      "summary": "Catan is a battle. And sometimes that battle becomes a war.\n\nThis week's matchup was all-out war because Hussein, with the bravado of Napoleon Dynamite and the bite of a chihuahua, declared his prolonged losing streak would end tonight.\n\nLike World War II, there were heroes. This week's hero, to the surprise of many, was Dania.\n\nDania is an inspiration to every young mother. Just six weeks postpartum, she returned from maternity leave with her baby on her lap and a bottle in her hand. She shocked us all by getting a win before the hosts.\n\nIn World War II, we had Rosie the Riveter. In the war declared by Hussein, we have Dania the Humble. She was the most unassuming champion, and she spent the evening thanking each of us individually for her victory in a way that felt anything but humble.\n\nIn war, there are winners and losers, and there were two big losers this evening. First was Ali, whose game sputtered from the start. He had an ideal opening strategy, which Hussein promptly jinxed by asking everyone to start over the moment Ali placed his starting spots. However, the biggest loser of the night was Abe. Abe went from worst to first and spent the rest of the evening exasperated because nothing he tried worked. By the end, both of them were basically just rolling dice and waiting for suhoor.\n\nMorale victories do not mean much in wars, but for Rasha, that was as good as it gets right now. It was another close call, and she also tied for worst play of the week with Hassan.\n\nIn wars, you have to execute. Hassan had a great battle plan, had the spots, had the rolls, and still could not finish. The best play of the day came when Ali stole Hassan's metropolis with nine coins in a single turn, right before Hassan was about to win the game. The worst play of the day was the lack of urgency from both Rasha and Hassan around the wool metropolis. Hassan practically had it in his hands if he had played it right. Rasha seemed determined to hand Dania the metropolis for the win instead of taking it herself by trading her wool. In war, sometimes the smartest tactic is simple defense, and they could not execute it or prolong the game. They let Dania take the wool metropolis and seal the victory.\n\nLena sat out again, maybe scared off by the war-themed evening. Rola declared herself anti-violence and decided to stay home.",
+      "players": ["Ali", "Abe", "Dania", "Hassan", "Hussein", "Rasha"]
+    },
+    {
       "date": "2026-02-21",
       "winner": "Abe",
       "lastPlace": "Hussein",

@@ -150,6 +150,8 @@ const renderRecaps = (weeks) => {
       const worstPlay = week.worstPlay || 'Add the worst play for this match.';
       const summary = week.summary || '';
       const summaryParts = summary.split(/\n\s*\n/).map((part) => part.trim()).filter(Boolean);
+      const recapTitle = week.recapTitle || '';
+      const recapImage = week.recapImage || '';
 
       return `
         <article class="recap-card">
@@ -161,6 +163,8 @@ const renderRecaps = (weeks) => {
             ${bestPlayBy ? `<span class="tag bestplay">Best Play: ${bestPlayBy}</span>` : ''}
             ${worstPlayBy ? `<span class="tag worstplay">Worst Play: ${worstPlayBy}</span>` : ''}
           </div>
+          ${recapTitle ? `<h4 class="recap-title">${recapTitle}</h4>` : ''}
+          ${recapImage ? `<img class="recap-image" src="${recapImage}" alt="${recapTitle || 'Recap image'}" />` : ''}
           ${summaryParts.map((part) => `<p class="recap-summary">${part}</p>`).join('')}
           ${bestPlay ? `<p class="best-play"><strong>Best Play:</strong> ${bestPlay}</p>` : ''}
           <p class="worst-play"><strong>Worst Play:</strong> ${worstPlay}</p>

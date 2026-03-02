@@ -188,6 +188,21 @@ h2 {
   margin-bottom: 10px;
 }
 
+.recap-title {
+  margin: 6px 0 12px;
+  font-family: "Cinzel", "Garamond", serif;
+  font-size: 1.25rem;
+  color: var(--ink);
+}
+
+.recap-image {
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 14px;
+  border: 1px solid rgba(31, 26, 20, 0.12);
+  box-shadow: 0 10px 18px rgba(31, 26, 20, 0.18);
+}
+
 .recap-summary {
   margin: 10px 0 0;
   font-size: 0.95rem;
@@ -206,6 +221,15 @@ h2 {
 
 .tag.winner { background: rgba(141, 191, 115, 0.35); }
 .tag.last { background: rgba(196, 70, 43, 0.3); }
+.tag.best { background: rgba(76, 122, 219, 0.28); }
+.tag.bestplay { background: rgba(213, 162, 63, 0.35); }
+.tag.worstplay { background: rgba(123, 75, 179, 0.3); }
+
+.best-play {
+  margin: 10px 0 0;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
 
 .worst-play {
   margin: 8px 0 0;
