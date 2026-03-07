@@ -34,6 +34,41 @@ const parseRecord = (record) => {
   };
 };
 
+const buildCategoryCounts = (weeks, players) => {
+  const counts = new Map();
+  const addPlayer = (name) => {
+    if (!counts.has(name)) {
+      counts.set(name, { bestPlay: 0, worstPlay: 0, lastPlace: 0, bestPlayer: 0 });
+    }
+  };
+
+  (players || []).forEach(addPlayer);
+
+  (weeks || []).forEach((week) => {
+    toArray(week.bestPlayBy).forEach((name) => {
+      addPlayer(name);
+      counts.get(name).bestPlay += 1;
+    });
+
+    toArray(week.worstPlayBy).forEach((name) => {
+      addPlayer(name);
+      counts.get(name).worstPlay += 1;
+    });
+
+    toArray(week.lastPlace).forEach((name) => {
+      addPlayer(name);
+      counts.get(name).lastPlace += 1;
+    });
+
+    toArray(week.bestPlayer).forEach((name) => {
+      addPlayer(name);
+      counts.get(name).bestPlayer += 1;
+    });
+  });
+
+  return counts;
+};
+
 const getStandings = (data) => {
   if (Array.isArray(data.standings) && data.standings.length) {
     return data.standings.map((row) => {
@@ -111,6 +146,10 @@ const renderStandings = (standings) => {
           <th>Wins</th>
           <th>Losses</th>
           <th>Games</th>
+          <th>Best Play</th>
+          <th>Worst Play</th>
+          <th>Last Place</th>
+          <th>Best Player</th>
         </tr>
       </thead>
       <tbody>
@@ -122,6 +161,10 @@ const renderStandings = (standings) => {
               <td>${row.wins}</td>
               <td>${row.losses}</td>
               <td>${row.games}</td>
+              <td>${row.bestPlay ?? 0}</td>
+              <td>${row.worstPlay ?? 0}</td>
+              <td>${row.lastPlace ?? 0}</td>
+              <td>${row.bestPlayer ?? 0}</td>
             </tr>
           `)
           .join('')}
@@ -181,8 +224,13 @@ fetch('data.json')
       metaEl.textContent = `${data.leagueName} | ${data.seasonYear}`;
     }
     const standings = sortStandings(getStandings(data));
-    renderRecords(standings);
-    renderStandings(standings);
+    const counts = buildCategoryCounts(data.weeks || [], data.players || []);
+    const enriched = standings.map((row) => ({
+      ...row,
+      ...(counts.get(row.player) || { bestPlay: 0, worstPlay: 0, lastPlace: 0, bestPlayer: 0 }),
+    }));
+    renderRecords(enriched);
+    renderStandings(enriched);
     renderRecaps(data.weeks || []);
   })
   .catch(() => {
