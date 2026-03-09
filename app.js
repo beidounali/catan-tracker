@@ -195,6 +195,7 @@ const renderRecaps = (weeks) => {
       const summaryParts = summary.split(/\n\s*\n/).map((part) => part.trim()).filter(Boolean);
       const recapTitle = week.recapTitle || '';
       const recapImage = week.recapImage || '';
+      const summaryImageAfterFirstParagraph = week.summaryImageAfterFirstParagraph || '';
 
       return `
         <article class="recap-card">
@@ -208,7 +209,12 @@ const renderRecaps = (weeks) => {
           </div>
           ${recapTitle ? `<h4 class="recap-title">${recapTitle}</h4>` : ''}
           ${recapImage ? `<img class="recap-image" src="${recapImage}" alt="${recapTitle || 'Recap image'}" />` : ''}
-          ${summaryParts.map((part) => `<p class="recap-summary">${part}</p>`).join('')}
+          ${summaryParts
+            .map((part, index) => `
+              <p class="recap-summary">${part}</p>
+              ${index === 0 && summaryImageAfterFirstParagraph ? `<img class="recap-image" src="${summaryImageAfterFirstParagraph}" alt="Summary image" />` : ''}
+            `)
+            .join('')}
           ${bestPlay ? `<p class="best-play"><strong>Best Play:</strong> ${bestPlay}</p>` : ''}
           <p class="worst-play"><strong>Worst Play:</strong> ${worstPlay}</p>
         </article>
@@ -238,3 +244,4 @@ fetch('data.json')
       metaEl.textContent = 'Unable to load data.json';
     }
   });
+
