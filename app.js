@@ -195,6 +195,7 @@ const renderRecaps = (weeks) => {
       const summaryParts = summary.split(/\n\s*\n/).map((part) => part.trim()).filter(Boolean);
       const recapTitle = week.recapTitle || '';
       const recapImage = week.recapImage || '';
+      const recapImageClass = week.date === '2026-03-22' ? 'recap-image recap-image-featured' : 'recap-image';
       const summaryImageAfterFirstParagraph = week.summaryImageAfterFirstParagraph || '';
 
       return `
@@ -208,7 +209,7 @@ const renderRecaps = (weeks) => {
             ${worstPlayBy ? `<span class="tag worstplay">Worst Play: ${worstPlayBy}</span>` : ''}
           </div>
           ${recapTitle ? `<h4 class="recap-title">${recapTitle}</h4>` : ''}
-          ${recapImage ? `<img class="recap-image" src="${recapImage}" alt="${recapTitle || 'Recap image'}" />` : ''}
+          ${recapImage ? `<img class="${recapImageClass}" src="${recapImage}" alt="${recapTitle || 'Recap image'}" />` : ''}
           ${summaryParts
             .map((part, index) => `
               <p class="recap-summary">${part}</p>
