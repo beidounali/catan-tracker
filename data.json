@@ -14,33 +14,33 @@
   "standings": [
     {
       "player": "Ali",
-      "wins": 3,
+      "wins": 4,
       "losses": 3
     },
     {
       "player": "Abe",
       "wins": 1,
-      "losses": 5
+      "losses": 6
     },
     {
       "player": "Hassan",
       "wins": 1,
-      "losses": 5
+      "losses": 6
     },
     {
       "player": "Hussein",
       "wins": 0,
-      "losses": 6
+      "losses": 7
     },
     {
       "player": "Dania",
       "wins": 1,
-      "losses": 2
+      "losses": 3
     },
     {
       "player": "Rasha",
       "wins": 0,
-      "losses": 5
+      "losses": 6
     },
     {
       "player": "Lena",
@@ -54,6 +54,26 @@
     }
   ],
   "weeks": [
+    {
+      "date": "2026-03-15",
+      "recapTitle": "Some Guys Have All the Luck",
+      "winner": "Ali",
+      "lastPlace": "Hussein",
+      "bestPlayer": "Ali",
+      "bestPlayBy": "Dania",
+      "worstPlayBy": "Abe",
+      "bestPlay": "Dania building on Hussein's port and knocking him out of the game early.",
+      "worstPlay": "Abe gleefully taking longest road.",
+      "players": [
+        "Ali",
+        "Hussein",
+        "Rasha",
+        "Abe",
+        "Dania",
+        "Hassan"
+      ],
+      "summary": "We're going to keep this short and sweet. Hassan got attacked. Abe got longest road and then got attacked. Ali didn't get attacked-and won."
+    },
     {
       "date": "2026-03-08",
       "recapTitle": "Abe and the Terrible, Horrible, No Good, Very Bad Day",
