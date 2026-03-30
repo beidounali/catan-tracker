@@ -34,6 +34,15 @@ const parseRecord = (record) => {
   };
 };
 
+const escapeHtml = (value) => String(value)
+  .replaceAll('&', '&amp;')
+  .replaceAll('<', '&lt;')
+  .replaceAll('>', '&gt;')
+  .replaceAll('"', '&quot;')
+  .replaceAll("'", '&#39;');
+
+const formatSummaryPart = (value) => escapeHtml(value).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+
 const buildCategoryCounts = (weeks, players) => {
   const counts = new Map();
   const addPlayer = (name) => {
@@ -212,7 +221,7 @@ const renderRecaps = (weeks) => {
           ${recapImage ? `<img class="${recapImageClass}" src="${recapImage}" alt="${recapTitle || 'Recap image'}" />` : ''}
           ${summaryParts
             .map((part, index) => `
-              <p class="recap-summary">${part}</p>
+              <p class="recap-summary">${formatSummaryPart(part)}</p>
               ${index === 0 && summaryImageAfterFirstParagraph ? `<img class="recap-image" src="${summaryImageAfterFirstParagraph}" alt="Summary image" />` : ''}
             `)
             .join('')}
@@ -245,4 +254,6 @@ fetch('data.json')
       metaEl.textContent = 'Unable to load data.json';
     }
   });
+
+
 
