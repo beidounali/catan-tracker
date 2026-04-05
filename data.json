@@ -21,27 +21,27 @@
     {
       "player": "Abe",
       "wins": 1,
-      "losses": 7
+      "losses": 8
     },
     {
       "player": "Hassan",
       "wins": 1,
-      "losses": 8
+      "losses": 9
     },
     {
       "player": "Hussein",
-      "wins": 0,
+      "wins": 1,
       "losses": 9
     },
     {
       "player": "Dania",
       "wins": 1,
-      "losses": 5
+      "losses": 6
     },
     {
       "player": "Rasha",
       "wins": 0,
-      "losses": 7
+      "losses": 8
     },
     {
       "player": "Lena",
@@ -51,7 +51,7 @@
     {
       "player": "Linda",
       "wins": 0,
-      "losses": 1
+      "losses": 2
     },
     {
       "player": "Rola",
@@ -60,6 +60,26 @@
     }
   ],
   "weeks": [
+    {
+      "date": "2026-04-05",
+      "recapTitle": "The Pride Lands of Catan: Simba Hussein's Return",
+      "winner": "Hussein",
+      "lastPlace": "Linda",
+      "bestPlayer": "Hussein",
+      "bestPlayBy": "Hussein",
+      "worstPlayBy": "Abe",
+      "bestPlay": "Hussein for stealing two metropolis for the win.",
+      "worstPlay": "Abe for wasting two deserter cards by completely outsmarting himself and going for the aqueduct instead of going for the win.",
+      "summary": "The Pride Lands of Catan had fallen quiet.\n\nAli Mufusa, the great ruler of the board, had vanished beyond the horizon... and with him, balance left the land.\n\nIn his absence, darkness crept in.\n\nFrom the shadows rose Abe Scar, who seized control of the Pride Lands with ruthless precision. Cities rose under his command. Knights marched at his bidding.\n\nWith two metropolises, powerful knights, and Dania the Hyena at his side, he believed himself untouchable.\n\nNo one dared challenge him.\n\nNot Hassan Zazu, who found himself trapped early-boxed in, wings clipped, watching helplessly from his proverbial cage.\n\nNot even Rasha Nala, who stood on the edge of defeat, her voice filled with frustration.\n\n\"It is over,\" she declared. \"Scar has already won.\"\n\nHer record weighed on her-0-7.\nHer betrothed, Hussein Simba, was worse-0-9, missing, absent, gone from the Pride Lands.\n\nHope was fading.\n\nMeanwhile, Linda Rafiki, self-proclaimed African queen, spoke in cryptic tongues-her words flowing like riddles no one could decipher.\n\n\"I am the queen of the Congo!\" she proclaimed, as chaos unfolded.\n\nScar grew arrogant.\n\n\"I am the ruler of Catan,\" he boasted. \"No one can stop me.\"\n\nAnd for a time... he was right.\n\nDesperate, Nala made a bold move.\n\nWith a whisper carried across the winds of the board, she cast an evil eye-declaring Scar the victor before he had truly won. An evil eye stretched from the Pride Lands to the outlands.\n\nBut even magic could not restore what was missing.\n\nSimba.\n\nFar from the board, hidden from destiny, Hussein Simba had abandoned his path.\n\n\"I am not Ali,\" he said. \"I cannot rule like him. I cannot win.\"\n\nNala found him, her voice breaking.\n\n\"We cannot live like this,\" she pleaded. \"The Pride Lands are lost.\"\n\nBut Simba turned away.\n\n\"I am not who you think I am.\"\n\nAnd so Nala left... her hope nearly gone.\n\nThen came Rafiki.\n\n\"Ali is here,\" she said.\n\nSimba scoffed. \"That makes no sense.\"\n\n\"I will show you.\"\n\nThe Catan board itself seemed to awaken.\n\nAs Scar took an eternity-fifteen long minutes-to incorrectly use two deserter cards... and a vision appeared.\n\nFrom the sky... from the board... from within-\n\nAli Mufusa.\n\n\"Simba,\" he said.\n\n\"I'm not like you,\" Simba replied. \"I can't rule the Pride Lands of Catan for four weeks. I don't have it in me.\"\n\nAli's voice echoed like thunder across the hexes:\n\n\"Remember who you are.\"\n\"Take your place... in the Circle of Catan.\"\n\nSomething changed.\n\nSimba rose.\n\nHe returned to the Pride Lands.\n\nAnd the comeback began.\n\nFirst-he struck Dania the Hyena, seizing her metropolis.\n\nThen, from the sidelines, Hassan Zazu made his move-blocking Scar, denying him the knight victory points he needed. A small act... but a crucial one.\n\nNext, Rasha Nala, no longer defeated, rose with him-striking Scar and taking one of his metropolises.\n\nThe Pride Lands stirred.\n\nScar faltered.\n\nThen came the final moment.\n\nSimba faced Scar.\n\nWith one decisive move-swift, precise, undeniable-\n\nHe stole Scar's second metropolis.\n\nThe board fell silent.\n\nThe tyrant had fallen.\n\nAnd so, at last-\n\nHussein Simba ascended.\n\nStanding atop Pride Rock, in the center of the board, he claimed his place in the Circle of Catan.\n\nBeside him stood Rasha Nala.\n\nAbove him, unseen but ever present, Ali Mufusa watched.\n\nThe first victory.\n\nThe rightful king had returned.",
+      "players": [
+        "Hussein",
+        "Rasha",
+        "Linda",
+        "Abe",
+        "Hassan",
+        "Dania"
+      ]
+    },
     {
       "date": "2026-03-29",
       "recapTitle": "Rasha Umbridge: I will have order!",
@@ -183,6 +203,3 @@
     }
   ]
 }
-
-
-
