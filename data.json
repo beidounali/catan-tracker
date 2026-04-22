@@ -21,7 +21,7 @@
     {
       "player": "Hassan",
       "wins": 2,
-      "losses": 9
+      "losses": 10
     },
     {
       "player": "Linda",
@@ -31,26 +31,26 @@
     {
       "player": "Dania",
       "wins": 1,
-      "losses": 7
+      "losses": 8
     },
     {
       "player": "Abe",
       "wins": 1,
-      "losses": 9
+      "losses": 10
     },
     {
       "player": "Hussein",
       "wins": 1,
-      "losses": 10
+      "losses": 11
     },
     {
       "player": "Lena",
       "wins": 0,
-      "losses": 5
+      "losses": 6
     },
     {
       "player": "Rasha",
-      "wins": 0,
+      "wins": 1,
       "losses": 8
     },
     {
@@ -60,6 +60,27 @@
     }
   ],
   "weeks": [
+    {
+      "date": "2026-04-19",
+      "recapTitle": "The Rashian Empire",
+      "winner": "Rasha",
+      "lastPlace": "Hassan",
+      "bestPlayer": "Rasha",
+      "bestPlayBy": "Rasha",
+      "worstPlayBy": "Lena",
+      "bestPlay": "Rasha for finally winning.",
+      "worstPlay": "Lena for not using her 30 cards to break Rasha's road and stop her from winning.",
+      "summary": "The tavern was loud that night-tankards clashing, firelight dancing across stone walls, and the low murmur of strategy whispered like conspiracies. The board was set. Not a battlefield of swords and steel, but of hexes and roads, cities and cunning. And seated at its center, calm as a queen before war, was Rasha Kaleesi.\n\nThey underestimated her.\n\nAt first, it seemed like any other game. Settlements rose modestly, roads stretched cautiously across the land, and the other players-lords of wheat and brick, barons of ore-made their moves with quiet confidence. They traded politely. They built predictably.\n\nRasha did neither.\n\nShe watched.\n\nLike a dragon circling high above, she studied every move, every hesitation, every alliance forming in hushed tones. Then, without warning, she struck.\n\nHer expansion was swift and ruthless. Where others hesitated, she claimed. Where resources were scarce, she controlled the flow. Ore and wheat bent to her will, and soon her cities rose-tall, unshakable, inevitable. The board began to change shape, no longer a fair kingdom but a realm under quiet conquest.\n\nAnd then came the knights.\n\nNot mere tokens, but her army. While others hoarded cards or chased fleeting victories, Rasha built strength-turn after turn, knight after knight. Her forces grew, vigilant and ready. And when the barbarians came, it was she who stood prepared.\n\nThe others faltered.\n\nTheir defenses were weak, their planning shortsighted. When the barbarians struck, it was not just a loss-it was humiliation. Cities fell. Progress crumbled. And through it all, Rasha remained untouched, her knights defending the realm with precision.\n\nWhispers spread around the table. Alliances formed against her. Trades were denied. Desperation crept in.\n\nIt didn't matter.\n\nRasha adapted. Where she was blocked, she pivoted. Where she was challenged, she dominated. Progress cards became weapons in her hands-monopolies that drained her enemies, inventions that accelerated her rise, and cunning plays that left others stunned in silence.\n\nOne by one, the players fell behind.\n\nA lord of sheep was reduced to begging for brick. A master of roads found his expansion strangled. Even the most confident among them began to unravel, their strategies collapsing under the weight of her control.\n\nBy the time they realized the truth, it was already over.\n\nRasha Kaleesi did not just play the game.\n\nShe ruled it.\n\nHer final city rose like a crown upon the board, and with it came victory-undeniable, absolute. The tavern fell quiet for a moment, the weight of what had just happened settling in.\n\nThen someone laughed nervously.\n\n\"Rematch?\"\n\nRasha only smiled.\n\nBecause in that moment, they all understood: this was never just a game of Catan.\n\nIt was conquest.",
+      "recapImage": "images/rasha queen.png",
+      "players": [
+        "Rasha",
+        "Hussein",
+        "Hassan",
+        "Dania",
+        "Lena",
+        "Abe"
+      ]
+    },
     {
       "date": "2026-04-12",
       "recapTitle": "Misunderstood: The Tom Ali Riddle Story",
