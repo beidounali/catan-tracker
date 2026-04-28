@@ -15,13 +15,13 @@
   "standings": [
     {
       "player": "Ali",
-      "wins": 6,
+      "wins": 7,
       "losses": 4
     },
     {
       "player": "Hassan",
       "wins": 2,
-      "losses": 10
+      "losses": 11
     },
     {
       "player": "Linda",
@@ -31,17 +31,17 @@
     {
       "player": "Dania",
       "wins": 1,
-      "losses": 8
+      "losses": 9
     },
     {
       "player": "Abe",
       "wins": 1,
-      "losses": 10
+      "losses": 11
     },
     {
       "player": "Hussein",
       "wins": 1,
-      "losses": 11
+      "losses": 12
     },
     {
       "player": "Lena",
@@ -51,7 +51,7 @@
     {
       "player": "Rasha",
       "wins": 1,
-      "losses": 8
+      "losses": 9
     },
     {
       "player": "Rola",
@@ -60,6 +60,27 @@
     }
   ],
   "weeks": [
+    {
+      "date": "2026-04-26",
+      "recapTitle": "Catan Court: The People vs. Last Week’s Decisions",
+      "winner": "Ali",
+      "lastPlace": "Dania",
+      "bestPlayer": "Hussein",
+      "bestPlayBy": "Hussein",
+      "worstPlayBy": "Rasha",
+      "bestPlay": "Hussein's placement on the wheat port and then getting all of the best wheat spots to have an ultimate setup.",
+      "worstPlay": "Rasha for using her Master Merchant after getting more points than Hussein.",
+      "summary": "All rise.\n\nThe Court of Catan is now in session.\nThe Honorable Judge Ali Beidoun presiding.\n\nYou may be seated.\n\nCourt has been called today to address a series of... questionable decisions made during last week’s game. Rather than reviewing yet another victory (mine), we will instead be examining the defendants’ conduct and issuing rulings accordingly.\n\nHussein will be serving as court clerk and occasional advisor-though based on recent events, he may also be subject to cross-examination.\n\nLet’s proceed.\n\nCount I: Lena - Failure to Appear / Jury Duty Evasion\n\nLena, please... actually, never mind. The court notes your absence.\n\nYou are charged with failure to appear after being properly summoned, as well as evasion of jury duty.\n\nLet the record reflect: you were expected in court. You did not attend.\n\nNow, the court understands that work obligations may arise. However, upon review, there was no evidence of an imminent deadline, emergency filing, or last-minute injunction that would justify absence.\n\n“General work responsibilities” are no longer a valid excuse for missing game night.\n\nThis court runs on consistency, commitment, and occasionally poor decision-making-but attendance is non-negotiable.\n\nVerdict: Guilty (in absentia).\nSentence: Mandatory appearance at the next session.\n\nCount II: Hassan - Reckless Use of a Deserter\n\nHassan, please approach.\n\nYou are charged with reckless Deserter usage.\n\nYou played the card. Twice.\n\nAnd yet-you had nowhere to place the knight.\n\nWe do not summon knights without jurisdiction.\n\nVerdict: Guilty.\n\nCount III: Abe - Failure to Prevent an Imminent Win\n\nAbe, step forward.\n\nRasha was about to win. You had the Merchant.\n\nAnd you chose... inaction.\n\nThere is no appeal once the game is over.\n\nVerdict: Guilty.\n\nCount IV: Abe - Misguided Prosecution\n\nYou focused your efforts on targeting me.\n\nThe objective is not to take me down. The objective is to win.\n\nVerdict: Guilty.\n\nCount V: Dania - Failure to Utilize Available Remedies\n\nYou had the Merchant. Rasha was at 12 points.\n\nAnd you... decided that was enough for the turn.\n\nFailure to act is worse than acting incorrectly.\n\nVerdict: Guilty.\n\nCount VI: Hussein - Hoarding Without Execution\n\nYou had thirty cards and a wheat port.\n\nAnd did nothing.\n\nHolding assets without execution is not strategy.\n\nVerdict: Guilty.\n\nCount VII: Dania - Failure to Anticipate a Known Outcome\n\nYou had the chance to block my road.\n\nYou didn’t.\n\nI connected, took Longest Road, and won.\n\nVerdict: Guilty.\n\nCount VIII: Rasha - Procedural Misconduct Leading to Loss\n\nYou had the win.\n\nYou used your Master Merchant in the wrong order.\n\nWhat you should have done:\nUse it first\nTake resources\nBuild\nWin\n\nWhat you did:\nWrong order\nThree cards\nNo win\n\nOrder matters.\n\nVerdict: Guilty.\n\nCourt is adjourned.\n\nThe judge remains undefeated.",
+      "recapImage": "images/Ali Judge.png",
+      "players": [
+        "Ali",
+        "Hussein",
+        "Rasha",
+        "Abe",
+        "Dania",
+        "Hassan"
+      ]
+    },
     {
       "date": "2026-04-19",
       "recapTitle": "The Rashian Empire",
