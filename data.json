@@ -15,18 +15,18 @@
   "standings": [
     {
       "player": "Ali",
-      "wins": 8,
+      "wins": 9,
       "losses": 5
     },
     {
       "player": "Hassan",
       "wins": 2,
-      "losses": 13
+      "losses": 14
     },
     {
       "player": "Linda",
       "wins": 1,
-      "losses": 3
+      "losses": 4
     },
     {
       "player": "Dania",
@@ -36,17 +36,17 @@
     {
       "player": "Abe",
       "wins": 1,
-      "losses": 12
+      "losses": 13
     },
     {
       "player": "Hussein",
       "wins": 1,
-      "losses": 14
+      "losses": 15
     },
     {
       "player": "Lena",
       "wins": 0,
-      "losses": 6
+      "losses": 7
     },
     {
       "player": "Rasha",
@@ -60,6 +60,27 @@
     }
   ],
   "weeks": [
+    {
+      "date": "2026-06-14",
+      "recapTitle": "Avengers: Endgame — The Inevitable Outcome",
+      "winner": "Ali",
+      "lastPlace": "Abe",
+      "bestPlayer": "Ali",
+      "bestPlayBy": "Ali",
+      "worstPlayBy": "Linda",
+      "bestPlay": "Ali using his resource monopoly and merchant combined to get the wool metropolis.",
+      "worstPlay": "Linda for not using her spy on Ali.",
+      "summary": "Last night’s Cities & Knights match felt less like a game of Catan and more like the climax of an Avengers movie. Five heroes assembled, alliances were formed, table politics reached peak levels, and nearly every decision eventually became centered around a single goal:\n\nStop Ali Thanos.\n\nThe problem was that while everyone else was focused on stopping Thanos, Thanos was focused on winning.\n\nBy the time the dust settled, Ali Thanos had reached 13 points and completed one of the more dominant victories the table has seen in some time.\n\nAbe Banner\n\nAbe Banner entered the game with all the potential in the world.\n\nUnfortunately, much like Bruce Banner spending an entire movie refusing to become the Hulk, Abe spent the entire night refusing to become a contender.\n\nThe stat line says it all: he started with 3 points and finished with 4.\n\nAfter hours of dice rolls, progress cards, city improvements, and opportunities, Abe managed to gain exactly one point.\n\nOne.\n\nAt some point the rest of the table stopped worrying about Abe’s chances of winning and started admiring the commitment to the bit.\n\nThe Hulk never came.\n\nLena Hawkeye\n\nEvery Avengers team has a Hawkeye.\n\nNot because Hawkeye wins, but because he’s always shooting arrows at somebody.\n\nFor Lena Hawkeye, that somebody was Ali Thanos.\n\nWhile most players spend a game trying to improve their own position, Lena seemed to derive significantly more joy from making sure Ali’s position got worse.\n\nNeed to advance toward victory? Maybe.\n\nNeed to annoy Thanos? Absolutely.\n\nBy the middle of the game it felt like Lena had completely abandoned the concept of winning in favor of a personal side quest.\n\nPerhaps that’s because winning has become such a foreign task that new goals were needed.\n\nRegardless, Hawkeye fired plenty of arrows.\n\nNone of them stopped Thanos.\n\nHassan Thor\n\nIf there was one player who looked capable of creating some drama, it was Hassan Thor.\n\nFor stretches of the game he looked powerful, dangerous, and ready to make a serious run at the leaders.\n\nThen disaster struck.\n\nThe pirates absolutely wrecked his plans, costing him two cities and crushing what looked like a potential surge toward contention.\n\nLike Thor in Infinity War, he had the tools and the opportunity.\n\nHe just couldn’t recover from the damage in time.\n\nHad those cities survived, the game might have looked very different.\n\nLinda Black Widow\n\nLinda Black Widow once again put together a respectable performance.\n\nNot great. Not terrible. Just solid.\n\nShe stayed relevant, avoided disaster, and benefited from the rest of the table deciding she was the best available anti-Thanos candidate.\n\nIn perhaps the most coordinated political move of the night, the table effectively helped her secure the Paper Metropolis in hopes she could become the hero they needed.\n\nUnfortunately, even Black Widow had some rookie moments.\n\nMost notably, holding a Spy Card and not using it against the clear leader.\n\nWhen the entire table is trying to stop Thanos, leaving one of your best weapons unused isn’t exactly ideal.\n\nA decent game overall, but probably not one she’ll be studying in the film room.\n\nHussein Loki\n\nNobody embodied their character better than Hussein Loki.\n\nFor most of the game, Hussein expertly convinced everyone that Ali Thanos was crushing the table and needed to be stopped immediately.\n\nThe funny thing was that Hussein wasn’t exactly out of it himself.\n\nWhile everyone focused on Thanos, Loki quietly built a position that gave him a very real chance to steal the game.\n\nThen came the annual tradition.\n\nHussein announced he was going to win.\n\nHe explained why he was going to win.\n\nHe practically started writing his recap.\n\nAnd then he discovered he was missing one card.\n\nJust one.\n\nAgain.\n\nAt this point, Hussein being one card away from victory is less of a game state and more of a personality trait.\n\nThe Final Battle\n\nAs the game entered its final stages, the heroes assembled.\n\nLena Hawkeye kept firing arrows.\n\nHussein Loki kept redirecting attention.\n\nLinda Black Widow received support from the table.\n\nHassan Thor tried to recover from pirate-inflicted tragedy.\n\nAbe Banner continued searching for the Hulk.\n\nAnd through it all, Ali Thanos kept moving forward.\n\nThe entire table united to help Linda secure the Paper Metropolis. Resources, attention, and strategy were all directed toward slowing the leader down.\n\nIt became five players versus one.\n\nBut by then the outcome was already written.\n\nDespite the attacks.\n\nDespite the politics.\n\nDespite the targeting.\n\nDespite an entire table working together.\n\nAli Thanos reached 13 points and completed the snap.\n\nPerfectly balanced.\n\nAs all things should be.",
+      "recapImage": "images/Ali Thanos.png",
+      "players": [
+        "Ali",
+        "Hassan",
+        "Hussein",
+        "Linda",
+        "Abe",
+        "Lena"
+      ]
+    },
     {
       "date": "2026-06-07",
       "recapTitle": "The 74th Annual Coolidge Hunger Games: Catan Edition",
