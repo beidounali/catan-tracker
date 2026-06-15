@@ -15,13 +15,13 @@
   "standings": [
     {
       "player": "Ali",
-      "wins": 9,
-      "losses": 5
+      "wins": 10,
+      "losses": 6
     },
     {
       "player": "Hassan",
-      "wins": 2,
-      "losses": 14
+      "wins": 3,
+      "losses": 15
     },
     {
       "player": "Linda",
@@ -31,27 +31,27 @@
     {
       "player": "Dania",
       "wins": 2,
-      "losses": 10
+      "losses": 12
     },
     {
       "player": "Abe",
       "wins": 1,
-      "losses": 13
+      "losses": 15
     },
     {
       "player": "Hussein",
       "wins": 1,
-      "losses": 15
+      "losses": 17
     },
     {
       "player": "Lena",
       "wins": 0,
-      "losses": 7
+      "losses": 8
     },
     {
       "player": "Rasha",
       "wins": 1,
-      "losses": 11
+      "losses": 12
     },
     {
       "player": "Rola",
